@@ -1,5 +1,5 @@
 # Koa-DocumentDB-Eaxmple
-> A users CRUD app using Koa and DoQmentDB(DocumentDB wrapper)
+> A users CRUD app using Koa and DoQmentDB(the DocumentDB ODM Client)
 
 #### Install
 * clone this project
