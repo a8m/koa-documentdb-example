@@ -1,0 +1,40 @@
+{
+  "name": "koa-documentdb-example",
+  "description": "A users CRUD app using Koa and DocumentDB",
+  "version": "1.0.0",
+  "author": "Ariel Mashraki <ariel@mashraki.co.il>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "keywords": [
+    "documentDB",
+    "doqmentDB",
+    "odm",
+    "atomic transaction",
+    "schema"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.12",
+    "co": "^4.4.0",
+    "documentdb": "^0.9.3",
+    "doqmentdb": "^0.2.8",
+    "koa": "^0.18.0",
+    "koa-bodyparser": "^1.4.0",
+    "koa-route": "^2.4.0"
+  },
+  "devDependencies": {
+    "agile": "0.0.2",
+    "mocha": "^2.1.0",
+    "should": "^5.0.1",
+    "sinon": "^1.12.2",
+    "supertest": "^0.15.0"
+  },
+  "scripts": {
+    "test": "NODE_PATH=src ./node_modules/mocha/bin/mocha test/* -u bdd -R spec"
+  },
+  "license": "MIT"
+}
