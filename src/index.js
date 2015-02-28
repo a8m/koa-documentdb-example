@@ -6,10 +6,6 @@ const koa        = require('koa')
     , app        = module.exports = koa()
     ;
 
-// Koa will have knowledge that it's sitting behind the Ngnix
-// and that the `X-Forwarded-*` header fields may be trusted
-app.proxy = true;
-
 // App Middleware
 app.use(controller.errorHandler());
 app.use(bodyParser());
